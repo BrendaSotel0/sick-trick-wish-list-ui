@@ -1,8 +1,12 @@
 import React from 'react';
+import TrickCard from './TrickCard';
 
 const AllTricks = () => {
   return (
-    <h1>TRICKS</h1>
+    <div>
+      <h1>TRICKS</h1>
+      <TrickCard />
+    </div>
   )
 }
 

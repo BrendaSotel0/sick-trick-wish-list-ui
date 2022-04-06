@@ -9,7 +9,9 @@ class TrickCard extends React.Component {
   }
   render() {
     return (
-      <h1>Trick</h1>
+      <div className='card'>
+        <h1>Trick</h1>
+      </div>
     )
   }
 }

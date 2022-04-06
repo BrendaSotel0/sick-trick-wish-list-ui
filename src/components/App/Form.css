@@ -1,0 +1,13 @@
+form {
+  margin: auto;
+}
+
+input,
+button,
+select {
+  margin: 5px;
+  width: 10%;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}

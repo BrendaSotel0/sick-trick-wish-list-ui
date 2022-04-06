@@ -11,7 +11,8 @@ class Form extends React.Component {
   render() {
     return (
       <form>
-        <select name='stance' placeholder='Choose your Stance' id='stance'>
+        <select name='stance' id='stance'>
+          <option value='flatground'>Choose your Stance</option>
           <option value='regular'>Regular</option>
           <option value='switch'>Switch</option>
         </select>
@@ -19,7 +20,8 @@ class Form extends React.Component {
           type='text'
           placeholder='Name of Trick'
         />
-        <select name='obstacle' placeholder='Choose your Obstacle' id='obstacle'>
+        <select name='obstacle' id='obstacle'>
+          <option value='flatground'>Choose your Obstacle</option>
           <option value='flatground'>Flatground</option>
           <option value='ledge'>Ledge</option>
           <option value='rail'>Rail</option>

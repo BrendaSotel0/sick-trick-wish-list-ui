@@ -1,19 +1,13 @@
 import React from 'react';
 
-class TrickCard extends React.Component {
-  constructor(props) {
-    super(props) 
-    this.state = {
-
-    }
-  }
-  render() {
-    return (
-      <div className='card'>
-        <h1>Trick</h1>
-      </div>
-    )
-  }
+const TrickCard = ({stance, name, obstacle, tutorial, id}) => {
+  return (
+    <div className='card'>
+      <h2>Name: {name}</h2>
+      <h2>Obstacle: {obstacle}</h2>
+      <h2>Link to tutorial: {tutorial}</h2>
+    </div>
+  )
 }
 
 export default TrickCard;
